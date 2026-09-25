@@ -1,8 +1,8 @@
 # Réponses aux questions du TP01 - Premiers scripts Bash
 
-**Nom :** [Votre nom]
-**Classe :** [Votre classe]
-**Date :** [Date]
+**Nom :** [Duvauchelle]
+**Classe :** [2onde BTS CIEL]
+**Date :** [25/09/26]
 
 ---
 
@@ -11,9 +11,11 @@
 ### Question 1 : Validation d'entrée
 **Comment vérifier que l'utilisateur a bien entré un nombre ?**
 
-Votre réponse :
+Votre réponse : faire un if pour vérifier l'entree
 ```
 [Expliquez ici votre méthode de validation]
+
+if nombre entier si nombre est entre 0 et 9 sinon réponse négative
 ```
 
 ### Question 2 : Boucle

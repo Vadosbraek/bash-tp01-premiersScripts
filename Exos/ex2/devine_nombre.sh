@@ -10,7 +10,10 @@
 
 # TODO: Vérifier que 2 paramètres sont fournis
 
-
+echo "Jeu : Devinez le nombre entre" $min "et" $max
+min = 1
+max = 100
+read min ,max
 # TODO: Valider que les paramètres sont des nombres
 
 

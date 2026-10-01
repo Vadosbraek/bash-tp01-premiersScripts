@@ -27,7 +27,7 @@ fi
 
 
 # TODO: Vérifier que le dossier existe
-
+Bouh !!!
 
 # TODO: Récupérer la date du jour au format AAAAMMJJ
 

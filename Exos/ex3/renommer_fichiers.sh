@@ -13,6 +13,18 @@
 
 # TODO: Vérifier qu'un dossier est fourni en paramètre
 
+#!/bin/bash
+
+# Vérifie si le premier paramètre est un dossier existant
+
+if [ -d "$1" ]; then
+    echo "Le dossier '$1' existe."
+else
+    echo "Erreur : Veuillez fournir un dossier valide en paramètre." >&2
+    echo "Usage : $0 /chemin/vers/dossier" >&2
+    exit 1
+fi
+
 
 # TODO: Vérifier que le dossier existe
 

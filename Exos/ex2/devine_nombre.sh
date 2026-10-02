@@ -32,6 +32,7 @@ if (( min >= max )); then
 fi
 
 
+
 # TODO: Générer un nombre aléatoire entre min et max
 
 SECRET=$((RANDOM % (max - min + 1) + min))
